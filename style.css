@@ -2,6 +2,7 @@
 
 *{
     box-sizing: border-box;
+   
 }
 
  :root{ /*variaveis globais*/
@@ -14,6 +15,11 @@
 
 
 }
+
+@font-face {
+   font-family: 'Kissing';
+   src: url('fontes/Kissing.ttf') format('truetype');
+ }
 
 
  body{
@@ -140,12 +146,16 @@
    display: inline-block;
    border: 3px solid var(--cor01);
    margin-left: 5px;
+   margin-top: 10px;
+
    
    
   
    
 
  }
+
+ 
 
  .fotodemembro > img {
    width: 150px;
@@ -156,6 +166,8 @@
   
   }
 
+ 
+
    div > p {
       font-family: Arial, Helvetica, sans-serif;
       color: black;
@@ -163,6 +175,7 @@
       text-align: center;
       border-radius: 10%;
       box-shadow:  0 4px 10px rgba(0, 0, 0, 0.3); /*sombra*/
+      margin:0;
    }
 
    div > p::before{
@@ -182,12 +195,34 @@
 
 
  footer{
-    background-color: rgba(0, 0, 0, 0.692);
-    
+
+   padding-top: 1px;
+    background-color: rgba(0, 0, 0, 0.692); 
+   
+   
+ }
+
+ footer > p.frase{
+   color: black;
+   font-family: 'Kissing';
+   text-align: center;
+   background-color: var(--cor02);
+   
+   
+   
+ }
+
+ footer > p.frase > a{
+   color: black;
+  
  }
 
 footer > p{
+   
+   margin: 5px;
     color: white;
+   
+ 
  
 }
 

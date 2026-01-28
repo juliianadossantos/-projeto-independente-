@@ -114,6 +114,8 @@ header{
     content: '📅 ';
   }
 
+  /*-----------------noite dos slides----------------*/
+
   #galeria{
     text-align: center;
     
@@ -208,4 +210,135 @@ header{
     background-position: center;
     background-repeat: no-repeat;
   }
+
+  /*-----------festa do pijama----------------*/
+
+  .mural{
+
+
+    margin: auto;
+
+
+    background-image: url('cortiça.png');
+    background-repeat: repeat;
+    background-position: center center;
+    border: 10px solid rgba(0, 0, 0, 0.774);
+    width: 80%;
+    min-height: 450px;
+   
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+
+  }
+
+  div > img{
+   
+    flex-basis:300px;
+    height: 200px;
+    
+    
+   
+  }
+
+  div.foto1,.foto2,.foto3,.foto4{
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transform: rotate(-2deg); /* foto tortinha aesthetic */
+  }
+
+  .adesivo{
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  }
+
+
+  div.foto1::before{
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 30%;
+    width: 80px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(0,0,0,0.1);
+
+  }
+
+  div.foto2::before{
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 30%;
+    width: 80px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(0,0,0,0.1);
+  }
+
+  div.foto3::before{
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 30%;
+    width: 80px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(0,0,0,0.1);
+  }
+
+  div.foto4::before{
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 30%;
+    width: 80px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(0,0,0,0.1);
+  }
+
+
+  .video{
+    border: 1px solid rgb(255,187,170);
+    background-color:rgba(255, 187, 170, 0.555);
+    border-radius: 10px;
+    box-shadow: 1px 3px 0.5px 3 px rgba(0, 0, 0, 0.144);
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-items: center;
+
+
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+   
+  }
+
+  video{
+    margin: 20px;
+    width: 500px;
+    height: 480px;
+    
+  }
+
+  
+  
+
+ 
+
+
+  
 
