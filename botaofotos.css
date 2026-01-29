@@ -334,7 +334,34 @@ header{
     
   }
 
-  
+  /*MOBILE CSS*/
+
+  @media screen and (max-width:500px){
+    .video{ /*container*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+       
+       
+        width: 100%;     /* ocupa toda largura disponível */
+        max-width: 400px; /* limite máximo */
+        height: auto;    /* altura proporcional ao vídeo */
+    }
+    
+    
+    
+    video{ /*item*/
+    
+        width: 80%;    /* ocupa parte da largura do container */
+        height: auto;   /* mantém proporção */
+    
+    
+    
+    }
+    
+    }
   
 
  
