@@ -1,0 +1,39 @@
+@charset "UTF-8" ;
+
+:root{ /*variaveis globais*/
+    /*palheta de cores sugerida*/
+    --cor01: rgb(255, 92,163);
+    --cor02: rgb(255,204,220);
+    --cor03: rgb(255,187,170);
+    --cor04: rgb(244,255,180);
+    /*fontes sugeridas*/
+
+
+}
+
+@media screen and (max-width:500px){
+.video{ /*container*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   
+   
+    width: 100%;     /* ocupa toda largura disponível */
+    max-width: 400px; /* limite máximo */
+    height: auto;    /* altura proporcional ao vídeo */
+}
+
+
+
+video{ /*item*/
+
+    width: 100%;    /* ocupa toda largura do container */
+    height: auto;   /* mantém proporção */
+
+
+
+}
+
+}
